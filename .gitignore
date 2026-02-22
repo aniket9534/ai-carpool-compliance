@@ -1,0 +1,29 @@
+# .gitignore
+
+# Virtual Environment (don't upload this - too large)
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.weights
+
+# Data files
+data/*.mp4
+data/*.avi
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
